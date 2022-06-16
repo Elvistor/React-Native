@@ -1,6 +1,7 @@
 //import { TiposBasicos } from "./tipescrypt/TiposBasicos"
 
 import { Contador } from "./components/Contador"
+import { ContadorConHook } from "./components/ContadorConHook"
 
 //import { Funciones } from "./tipescrypt/Funciones"
 //import { ObjetosLiterales } from "./tipescrypt/ObjetosLiterales"
@@ -14,7 +15,8 @@ const App = () => {
       {/*<TiposBasicos/>*/}
       {/*<ObjetosLiterales/>*/}
       {/*<Funciones/>*/}
-      <Contador/>
+      {/*<Contador/>*/}
+      <ContadorConHook/>
     </div>
   )
 }
