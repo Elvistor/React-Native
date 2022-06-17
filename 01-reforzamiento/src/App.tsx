@@ -1,5 +1,6 @@
 //import { TiposBasicos } from "./tipescrypt/TiposBasicos"
 
+import { Formularios } from "./components/Formularios"
 import { Usuarios } from "./components/Usuarios"
 
 //import { Contador } from "./components/Contador"
@@ -21,7 +22,8 @@ const App = () => {
       {/*<Contador/>*/}
       {/*<ContadorConHook/>*/}
       {/*<Login/>*/}
-      <Usuarios/>
+      {/*<Usuarios/>*/}
+      <Formularios/>
 
     </div>
   )
