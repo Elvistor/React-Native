@@ -4,6 +4,9 @@ import { SafeAreaView } from 'react-native'
 import BoxObjectModelScreen from './src/screens/BoxObjectModelScreen'
 import ContadorScreen from './src/screens/ContadorScreen'
 import DimensionesScreen from './src/screens/DimensionesScreen'
+import FlexScreen from './src/screens/FlexScreen'
+import PositionScreen from './src/screens/PositionScreen'
+import TareaScreen from './src/screens/TareaScreen'
 //import HolaMundoScreen from './src/screens/HolaMundoScreen'
 
 const App = () => {
@@ -12,7 +15,10 @@ const App = () => {
     {/*<HolaMundoScreen/>*/}
     {/*<ContadorScreen/>*/}
     {/*<BoxObjectModelScreen/>*/}
-    <DimensionesScreen/>
+    {/*<DimensionesScreen/>*/}
+    {/*<PositionScreen/>*/}
+    {/*<FlexScreen/>*/}
+    <TareaScreen/>
     </SafeAreaView>
 
   )
